@@ -1,21 +1,11 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
-> The best module ever.
-
-
-## Install
-
-```sh
-$ npm install --save matrix-traverser
-```
-
+# MatrixTraverser [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 ## Usage
 
 ```js
 var matrixTraverser = require('matrix-traverser');
 
-matrixTraverser('Rainbow');
+matrixTraverser.traverse([[1,2],[3,4]]);
 ```
 
 
@@ -24,9 +14,7 @@ matrixTraverser('Rainbow');
 MIT © [Lee Yeh]()
 
 
-[npm-image]: https://badge.fury.io/js/matrix-traverser.svg
-[npm-url]: https://npmjs.org/package/matrix-traverser
-[travis-image]: https://travis-ci.org//matrix-traverser.svg?branch=master
-[travis-url]: https://travis-ci.org//matrix-traverser
-[daviddm-image]: https://david-dm.org//matrix-traverser.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//matrix-traverser
+[travis-image]: https://travis-ci.org/leeyeh/matrix-traverser.svg?branch=master
+[travis-url]: https://travis-ci.org/leeyeh/matrix-traverser
+[daviddm-image]: https://david-dm.org/leeyeh/matrix-traverser.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/leeyeh/matrix-traverser
